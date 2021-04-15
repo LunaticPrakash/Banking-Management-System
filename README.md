@@ -49,7 +49,7 @@ pip3 install playsound
 - (Optional) You can check your MySQL server : <br>
   For windows - ``` "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqlshow" -u root mysql ``` <br>
   For Linux - ``` "sudo mysql -u <username> -p" ```  <br>
-  It might ask you for password, then enter your MySQL password. Replace <username> with your MySQL username.
+  It might ask you for password, then enter your MySQL password. Replace < username > with your MySQL username.
   
   - Go login at <a href="https://www.twilio.com/console">Twilio Console </a> and set up your account and get your credentials(ACCOUNT_SID, AUTH_TOKEN) and a phone     number for sending sms. For more info you can look at :- <a href= "https://www.twilio.com/docs/sms/quickstart/python" >Twilio Python SMS </a> <br>
  
