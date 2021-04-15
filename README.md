@@ -51,9 +51,9 @@ pip3 install playsound
   For Linux - ``` "sudo mysql -u <username> -p" ```  <br>
   It might ask you for password, then enter your MySQL password. Replace < username > with your MySQL username.
   
-  - Go login at <a href="https://www.twilio.com/console">Twilio Console </a> and set up your account and get your credentials(ACCOUNT_SID, AUTH_TOKEN) and a phone     number for sending sms. For more info you can look at :- <a href= "https://www.twilio.com/docs/sms/quickstart/python" >Twilio Python SMS </a> <br>
+- Go login at <a href="https://www.twilio.com/console">Twilio Console </a> and set up your account and get your credentials(ACCOUNT_SID, AUTH_TOKEN) and a phone     number for sending sms. For more info you can look at :- <a href= "https://www.twilio.com/docs/sms/quickstart/python" >Twilio Python SMS </a> <br>
  
-  Once you get your credentials and twilio mobile number place it in code at proper place(show in below screenshot)
+  Once you get your credentials and twilio mobile number place it in code at proper place(shown in below screenshot)
   
    <img src="Images/twilio-token.png" alt="twilio-token-ss" width="30%" height="40%" > <br> 
    <img src="Images/twilio-mobile.png" alt="twilio-mobile-ss" width="40%" height="40%" >  
