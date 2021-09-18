@@ -1,12 +1,20 @@
 # importing libraries
-import mysql.connector
-from mysql.connector import Error
-from tabulate import tabulate
 import os
 from datetime import datetime
-from playsound import playsound
-from twilio.rest import Client
 from getpass import getpass
+
+import mysql.connector
+from mysql.connector import Error
+from playsound import playsound
+from tabulate import tabulate
+from twilio.rest import Client
+from dotenv import load_dotenv
+
+load_dotenv(".env")
+USER_NAME = os.getenv("USER_NAME")
+PASSWORD = os.getenv("PASSWORD") 
+HOSTNAME = os.getenv("HOSTNAME")
+DB_NAME = os.getenv("DATABASE_NAME")
 
 # creating database
 def create_db(user_name, user_pass,host_name,db_name):
@@ -488,11 +496,11 @@ def report_menu():
 # driver code
 
 # creating database and initiating connection
-host_name = input("Enter hostname : ")
-user_name = input("Enter username : ")
-user_pass = getpass("Enter user password : ")
-db_name = input("Enter the name of database : ")
-
+host_name = input("Enter hostname : ") or HOSTNAME
+user_name = input("Enter username : ") or USER_NAME
+user_pass = getpass("Enter user password : ") or PASSWORD
+db_name = input("Enter the name of database : ") or DB_NAME
+print(user_pass, user_name, host_name, db_name)
 status = create_db(user_name, user_pass,host_name,db_name)
 if status == 1:
     print("\nDatabase is ready.\n\n")
