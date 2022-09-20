@@ -334,11 +334,15 @@ def update_account(connection):
 def close_account(connection):
     acc_num = int(input("Enter your account number : "))
 
-    query_close_account = "DELETE FROM customers WHERE acc_num = " + \
+    query_delete_transactiondata = "DELETE FROM transactions WHERE acc_num = " + \
+        str(acc_num) + ';'
+    query_delete_authdata = "DELETE FROM auth WHERE acc_num = " + \
+        str(acc_num) + ';'
+    query_delete_accountdata = "DELETE FROM customers WHERE acc_num = " + \
         str(acc_num) + ';'
     # add_to_deleted_tables(acc_num)
 
-    status = execute_query(connection, query_close_account)
+    status = execute_query(connection, query_delete_authdata) and execute_query(connection, query_delete_transactiondata) and execute_query(connection, query_delete_accountdata) 
     if status == 1:
         print("\n***Record deleted successfully...***\n")
         print("\nSad to see you go, Come back soon!\n")
