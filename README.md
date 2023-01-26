@@ -55,8 +55,8 @@ pip3 install playsound
  
   Once you get your credentials and twilio mobile number place it in code at proper place(shown in below screenshot)
   
-   <img src="Images/twilio-token.png" alt="twilio-token-ss" width="30%" height="40%" > <br> 
-   <img src="Images/twilio-mobile.png" alt="twilio-mobile-ss" width="40%" height="40%" >  
+   <img src="https://user-images.githubusercontent.com/56812557/214742546-0dad4975-fc62-4a9a-98d8-9569150726d3.png" alt="twilio-token-ss" width="30%" height="40%" > <br> 
+   <img src="https://user-images.githubusercontent.com/56812557/214742544-7aeb7b4a-32f5-40fd-9216-68e5ec458cc3.png" alt="twilio-mobile-ss" width="40%" height="40%" >  
   
  - Run the file by typing following command :-
  ```
@@ -72,27 +72,27 @@ pip3 install playsound
 ## Output :- 
    
    1. Login Panel - This is the first screen you'll see.
-   <img src="Images/Output-1.png" alt="Output-1" width="50%" height="50%" >
+   <img src="https://user-images.githubusercontent.com/56812557/214742549-cb5efe24-ded7-4d4e-9bd8-e3d983a33f37.png" alt="Output-1" width="50%" height="50%" >
    
    2. After admin login :
-   <img src="Images/Output-2.png" alt="Output-2" width="40%" height="22%" >
+   <img src="https://user-images.githubusercontent.com/56812557/214742554-11d9eb77-0833-417a-a382-590fc98f31e4.png" alt="Output-2" width="40%" height="22%" >
    
    3. After customer login :
-   <img src="Images/Output-3.png" alt="Output-3" width="40%" height="13%" >
+   <img src="https://user-images.githubusercontent.com/56812557/214742558-a7eae094-02d2-423a-aae6-f640a493bbee.png" alt="Output-3" width="40%" height="13%" >
    
    4. Transaction Menu - When customer selects Transaction and Deposit Money :
-   <img src="Images/Output-4.png" alt="Output-4" width="40%" height="40%" >
+   <img src="https://user-images.githubusercontent.com/56812557/214742570-0501d312-aae2-4817-a193-21be2864c6a9.png" alt="Output-4" width="40%" height="40%" >
    
    5. Transaction Menu - When customer selects Transaction and Withdraw Money :
-   <img src="Images/Output-5.png" alt="Output-5" width="40%" height="40%" >
+   <img src="https://user-images.githubusercontent.com/56812557/214742575-c93eaf24-f3f1-47b8-a417-f7af9ea83b8f.png" alt="Output-5" width="40%" height="40%" >
    
    6. When admin opens all customer details :
-   <img src="Images/Output-6.png" alt="Output-6" width="80%" height="90%" >
+   <img src="https://user-images.githubusercontent.com/56812557/214742578-d7041662-8cff-4a6a-afe8-df5544d0c366.png" alt="Output-6" width="80%" height="90%" >
    
    7. When admin opens all transaction details :
-   <img src="Images/Output-7.png" alt="Output-7" width="50%" height="40%" >
+   <img src="https://user-images.githubusercontent.com/56812557/214742540-edae24ab-289f-4f32-a1dd-d104aa5dc1ac.png" alt="Output-7" width="50%" height="40%" >
 
    8. SMS-Banking messages :
-   <img src="Images/Output-8.png" alt="Output-8" width="20%" height="20%" >
+   <img src="https://user-images.githubusercontent.com/56812557/214742543-3ace447a-e6e0-4261-b262-d8fa548261d0.png" alt="Output-8" width="20%" height="20%" >
 
 ## Dev :- Prakash Gupta
